@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eeba068c-1a37-41b4-8297-bb0bec2d5062" name="Changes" comment="consolehelper added">
+    <list default="true" id="eeba068c-1a37-41b4-8297-bb0bec2d5062" name="Changes" comment="&quot;person&quot; runs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/pluralsight/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pluralsight/Person.java" afterDir="false" />
@@ -80,12 +80,21 @@
       <option name="project" value="LOCAL" />
       <updated>1762269797739</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="&quot;person&quot; runs">
+      <option name="closed" value="true" />
+      <created>1762271864672</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1762271864672</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="consolehelper added" />
-    <option name="LAST_COMMIT_MESSAGE" value="consolehelper added" />
+    <MESSAGE value="&quot;person&quot; runs" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;person&quot; runs" />
   </component>
 </project>

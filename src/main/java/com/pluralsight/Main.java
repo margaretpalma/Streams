@@ -20,9 +20,9 @@ public class Main {
         people.add(new Person("Dominic", "Dot", 19));
 
         while(true){
-            String searchForName = ConsoleHelper.promptForString("Enter First Or Last Name").toLowerCase();
+            String searchForName = ConsoleHelper.promptForString("Enter First Or Last Name Or Quit to Exit Program").toLowerCase();
 
-            if(searchForName.equals("quit")){
+            if(searchForName.equalsIgnoreCase("quit") || searchForName.equalsIgnoreCase("exit")){
                 System.out.println("Exiting Program");
                 break;
             }
@@ -43,5 +43,24 @@ public class Main {
                 personMatches.forEach(person -> System.out.println(person));
             }
         }
+
+
+        //average age/ oldest / youngest in list
+        //find average
+        double averageAge = people.stream()
+                .mapToInt(person -> person.getAge()).average().orElse(0);
+        //oldest
+        double oldest = people.stream()
+                .mapToInt(person -> person.getAge()).max().orElse(0);
+
+        //youngest
+        double youngest = people.stream()
+                .mapToInt(person -> person.getAge()).min().orElse(0);
+
+        System.out.println("---Average | Oldest | Youngest---");
+        System.out.printf("Average Age --- " +averageAge);
+        System.out.printf("| Oldest Age ---  " + oldest);
+        System.out.printf("| Youngest Age --- " + youngest);
+
     }
 }
